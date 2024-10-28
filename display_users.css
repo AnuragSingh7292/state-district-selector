@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 212, 212);
+  
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #e6e6ff;
+    color: rgb(0, 0, 0);
+  }
+  tr:nth-child(even) {
+    background-color: #e2e2e2;
+  }
+  tr:nth-child(odd) {
+    background-color: #d4d3d3;
+  }
+  caption
+  {
+    font-size: 21px;
+    font-family:Arial, sans-serif;
+    
+  }
